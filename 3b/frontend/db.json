@@ -1,0 +1,55 @@
+{
+  "persons": [
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": "3"
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": "4"
+    },
+    {
+      "name": "kenzie",
+      "number": "123456789",
+      "id": "R6mrcUEA68Q"
+    },
+    {
+      "name": "lala",
+      "number": "1234567",
+      "id": "I_eNTKUT1gY"
+    },
+    {
+      "name": "lalu",
+      "number": "4747747",
+      "id": "gPqYsJc-dFw"
+    },
+    {
+      "name": "yryry",
+      "number": "82782783",
+      "id": "l8HL_RHCGXA"
+    },
+    {
+      "name": "iefhiwhefi",
+      "number": "9494994949",
+      "id": "1WV73MHmnT0"
+    },
+    {
+      "name": "yyyryr",
+      "number": "87474774",
+      "id": "vTL6RjQUvds"
+    },
+    {
+      "name": "ururuur",
+      "number": "99996",
+      "id": "9R_JqDfZwH8"
+    },
+    {
+      "name": "yyyrtr",
+      "number": "000900",
+      "id": "p4yAB4P-MfU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
