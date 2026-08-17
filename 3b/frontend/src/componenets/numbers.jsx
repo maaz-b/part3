@@ -9,7 +9,7 @@ const Numbers = ({ filteredPersons, onDeletePerson }) => {
               {person.name} {person.number}{" "}
               <button
                 onClick={() => {
-                  onDeletePerson(person.id);
+                  onDeletePerson(person._id);
                 }}
               >
                 Delete

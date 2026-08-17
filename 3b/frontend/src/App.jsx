@@ -91,7 +91,7 @@ const App = () => {
           "The person already exists, do you want to update the number?",
         )
       ) {
-        const id = persons.find((person) => person.name === name).id;
+        const id = persons.find((person) => person.name === name)._id;
         const newPerson = {
           name: name,
           number: phone,
@@ -101,7 +101,7 @@ const App = () => {
           .editPerson(id, newPerson)
           .then((data) => {
             const newPersons = persons.map((person) =>
-              person.id === id ? data : person,
+              person._id === id ? data : person,
             );
             setPersons(newPersons);
             showMessage("Person edited successfully.", false);
